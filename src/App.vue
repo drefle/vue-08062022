@@ -56,7 +56,7 @@ import Day from '@/components/Day.vue';
       }
     },
     async beforeMount() {
-      const response = await fetch('../data.json');
+      const response = await fetch('data.json');
       const days = await response.json();
       this.days = days;
     },
