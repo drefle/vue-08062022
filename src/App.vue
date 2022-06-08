@@ -65,10 +65,16 @@ import Day from '@/components/Day.vue';
 
 <style lang="scss">
 
+@font-face {
+  font-family: "DM Sans";
+  src: url("../src/font/DMSans-Regular.ttf");
+}
+
 body{
   	margin: 0;
 	padding: 0;
 	border: 0;
+  font-family: DM Sans;
 }
 
 .page{
@@ -94,7 +100,7 @@ body{
     border-radius: 0.5rem;
     padding: 1rem;
     color: white;
-    font-family: 'DM Sans';
+  
     .balance__wrapper{
       display: flex;
       flex-direction: column;
