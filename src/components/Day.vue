@@ -62,7 +62,7 @@
 
     .amount {
         background-color: hsl(25,47%,15%);
-        padding: 0.5rem;
+        padding: 0.35rem;
         color: white;
         position: absolute;
         font-size: 11px;
